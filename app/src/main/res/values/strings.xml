@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guided Login App</string>
+    <string name="txtLogin">Username</string>
+    <string name="txtLoginHint">Enter Username</string>
+    <string name="txtPasswordHint">Password</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtButton">Login</string>
+    <string name="errUsername">The username was incorrect</string>
+    <string name="errPassword">The password was incorrect</string>
+    <string name="successfulAttempt">Login!</string>
+</resources>
