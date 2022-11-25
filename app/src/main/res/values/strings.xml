@@ -8,4 +8,44 @@
     <string name="errUsername">The username was incorrect</string>
     <string name="errPassword">The password was incorrect</string>
     <string name="successfulAttempt">Login!</string>
+
+    <string name="hntFirstName">First Name</string>
+    <string name="hntLastName">Last Name</string>
+    <string name="hntPhoneNumber">Phone Number</string>
+    <string name="hntDay">Day</string>
+    <string name="hntYear">Year</string>
+    <string name="hntMonth">Month</string>
+    <string name="txtDateOfBirth">Date Of Birth</string>
+    <string name="txtMonthOfBirth">Month</string>
+    <string name="txtDayOfBirth">Day</string>
+    <string name="txtYearOfBirth">Year</string>
+    <string name="txtCertificate">Certificate</string>
+    <string name="txtAssociates">Associates</string>
+    <string-array name="arrMonths">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12sean</item>
+    </string-array>
+    <string-array name="arrCert">
+        <item>Android</item>
+        <item>IOS</item>
+    </string-array>
+    <string-array name="arrAAS">
+        <item>Digital Media</item>
+        <item>Mobile Application Development</item>
+        <item>Web Development</item>
+    </string-array>
+    <string name="txtProgramCert"></string>
+    <string name="txtProgramAAS"></string>
+    <string name="txtBtnNext">Next</string>
+
 </resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/hntFirstName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editLastName"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:hint="@string/hntLastName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="196dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/hntPhoneNumber"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editLastName" />
+
+    <TextView
+        android:id="@+id/textDateOfBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="@string/txtDateOfBirth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPhone" />
+
+    <Spinner
+        android:id="@+id/spnBirthMonth"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:entries="@array/arrMonths"
+        app:layout_constraintStart_toEndOf="@+id/textDateOfBirth"
+        app:layout_constraintTop_toTopOf="@+id/textDateOfBirth" />
+
+    <Switch
+        android:id="@+id/swtCertAAS"
+        android:layout_width="376dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="108dp"
+        android:checked="true"
+        android:showText="true"
+        android:text="Switch"
+        android:textOff="@string/txtCertificate"
+        android:textOn="@string/txtAssociates"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDateOfBirth"
+        tools:checked="true" />
+
+    <Spinner
+        android:id="@+id/spnCert"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/arrCert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textCert" />
+
+    <Spinner
+        android:id="@+id/spnAAS"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="68dp"
+        android:entries="@array/arrAAS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spnCert"
+        app:layout_constraintTop_toTopOf="@+id/spnCert" />
+
+    <TextView
+        android:id="@+id/textCert"
+        android:layout_width="72dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtCertificate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtCertAAS" />
+
+    <TextView
+        android:id="@+id/textAAS"
+        android:layout_width="72dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/txtAssociates"
+        app:layout_constraintStart_toEndOf="@+id/textCert"
+        app:layout_constraintTop_toTopOf="@+id/textCert" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="164dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtBtnNext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnCert" />
+
+    <EditText
+        android:id="@+id/editDay"
+        android:layout_width="72dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="@string/hntDay"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/spnBirthMonth"
+        app:layout_constraintTop_toTopOf="@+id/spnBirthMonth" />
+
+    <EditText
+        android:id="@+id/editYear"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:ems="10"
+        android:hint="@string/hntYear"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editDay"
+        app:layout_constraintTop_toTopOf="@+id/editDay" />
+</androidx.constraintlayout.widget.ConstraintLayout>
