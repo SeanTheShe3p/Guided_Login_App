@@ -84,7 +84,8 @@
         android:id="@+id/spnCert"
         android:layout_width="164dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
         android:entries="@array/arrCert"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textCert" />
@@ -104,7 +105,7 @@
         android:layout_width="72dp"
         android:layout_height="36dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="30dp"
         android:text="@string/txtCertificate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/swtCertAAS" />
@@ -114,7 +115,6 @@
         android:layout_width="72dp"
         android:layout_height="30dp"
         android:layout_marginStart="208dp"
-        android:layout_marginTop="4dp"
         android:text="@string/txtAssociates"
         app:layout_constraintStart_toEndOf="@+id/textCert"
         app:layout_constraintTop_toTopOf="@+id/textCert" />

@@ -48,4 +48,18 @@
     <string name="txtProgramAAS"></string>
     <string name="txtBtnNext">Next</string>
 
+    <string name="txtSelectYourClass">Select your class and time slot:</string>
+    <string name="txtClassOption1">MAD-107: iOS I</string>
+    <string name="rdOpt1">T/Th 12:00 PM-1:50 PM</string>
+    <string name="rdOpt2">M/W 10:00 AM-11:50 AM</string>
+    <string name="txtClassOption2">MAD-155: Android II</string>
+    <string name="rdOpt3">T/Th 12:00 PM-1:50 PM</string>
+    <string name="rdOpt4">T/Th 4:00 PM-5:50 PM</string>
+    <string name="txtClassOption3">MAD-157: iOS II</string>
+    <string name="rdOpt5">F 9:00 AM-12:50 PM</string>
+    <string name="rdOpt6">M/W 12:00 PM-1:50 PM</string>
+    <string name="rdOpt7">M/W 10:00 AM-11:50 AM</string>
+    <string name="rdOpt8">F 9:00 AM-12:50 PM</string>
+    <string name="btnTxtFinal">Next</string>
+
 </resources>
